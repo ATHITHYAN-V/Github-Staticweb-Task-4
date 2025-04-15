@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .hero-image{
+            text-align: center;
+        }
+        
+        .but :hover{
+            color: rgb(23, 118, 235);
+            background-color: white;
+            
+        }
+        .h5{
+            letter-spacing: 1px;
+            line-break: 3px;
+        }
+        .about {
+          
+            align-items: center;
+            background: linear-gradient(90deg, #4A90E2, #1E3A8A);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 24px;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            align-items: center;
+        }
+        .skills {
+            
+            align-items: center;
+            background: linear-gradient(90deg, #4A90E2, #1E3A8A);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 24px;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            text-align: center;
+        }
+        .skills-section {
+            width: 80%;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .skills-section h2 {
+            color: #333;
+        }
+        .skill {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #ddd;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .skill span {
+            font-weight: bold;
+        }
+        .progress-bar {
+            width: 70%;
+            height: 10px;
+            background: #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .progress {
+            height: 100%;
+            background: #4A90E2;
+        }
+        .project-card {
+            transition: transform 0.3s ease;
+          }
+      
+          .project-card:hover {
+            transform: translateY(-10px);
+          }
+      
+    </style>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <!-- Hero Section -->
+     <header class="about" id="about">About</header>
+    <div class="hero-image mt-4">
+        <img src="img1.jpg" class="rounded-circle img-fluid shadow-lg" alt="Profile Picture" width="200">
+    </div>
+    <section id="home" class="hero text-center py-5 bg-light position-relative">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Hi, I'm <span class="text-primary">ATHITHYAN V</span></h1>
+            <h5>Hello! I'm a passionate Cloud & DevOps Engineer with experience in designing modern, scalable, and secure cloud solutions. I specialize in AWS and cloud infrastructure to enhance performance and reliability.</h5><br>
+             
+            <div class="but">
+                <button class="btn btn-primary" type="button" >Download Resume</button>
+                
+              </div><br>
+            <p class="lead" >
+                <a href="https://www.instagram.com/_athithya.n/?next=&hl=en" target="_blank">
+                    <img src="insta.jpg" height="40px" width="40px" style="margin-right: 30px;" data-toggle="tooltip" title="Instagram">
+                </a>
+                
+               <a href="https://www.linkedin.com/in/athithyan-v-278635273?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                <img src="linkden.jpg" height="30px" width="30px" style="margin-right: 30px;" data-toggle="tooltip" title="LinkedIn">
+               </a>
+            
+            <a href="https://github.com/ATHITHYAN-V" target="_blank">
+                <img src="github-logo.png" height="30px" width="30px" style="margin-left: 30px;" data-toggle="tooltip" title="GitHub">
+            </a>
+                
+            <a href="https://www.credly.com/users/athithyan-v" target="_blank">
+                <img src="credly.png" height="30px" width="30px" style="margin-left: 30px;" data-toggle="tooltip" title="Credly">
+            </a>
+            </p>
+        </div>
+        
+    </section>
+    <br>
+    <section class="about section " id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+            <div class="about__img">
+                <img src="assets/img/about.jpg" alt="">
+            </div>
+            
+            <div>
+                <h2 class="about__subtitle">I'am ATHITHYAN V</h2>
+                <p class="about__text">Hello! I'm a passionate Cloud Technology & DevOps Engineer with experience in designing modern, scalable, and secure cloud solutions. I specialize in AWS and cloud infrastructure to enhance performance and reliability.
+                </p>           
+            </div>                                   
+        </div>
+    </section>
+    <br>
+
+    <header  class="skills" id="skills">Skills</header>
+<br>
+
+
+    <div class="skills-section">
+        <h2>My Skills</h2>
+        <div class="skill">
+            <span>Python</span>
+            <div class="progress-bar">
+                <div class="progress" style="width: 70%;"></div>
+            </div>
+            <span>60%</span>
+        </div>
+        <div class="skill">
+            <span>C Language</span>
+            <div class="progress-bar">
+                <div class="progress" style="width: 70%;"></div>
+            </div>
+            <span>70%</span>
+        </div>
+        <div class="skill">
+            <span>HTML</span>
+            <div class="progress-bar">
+                <div class="progress" style="width: 90%;"></div>
+            </div>
+            <span>90%</span>
+        </div>
+        <div class="skill">
+            <span>CSS</span>
+            <div class="progress-bar">
+                <div class="progress" style="width: 80%;"></div>
+            </div>
+            <span>80%</span>
+        </div>
+        <div class="skill">
+            <span>JavaScript</span>
+            <div class="progress-bar">
+                <div class="progress" style="width: 70%;"></div>
+            </div>
+            <span>70%</span>
+        </div>
+       
+    </div>
+    <br>
+    <header  class="skills" id="projects">Projects</header>
+    <br>
+     <!-- Projects Section -->
+  <section id="projects" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Projects</h2>
+      <div class="row">
+        <!-- Project 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card project-card">
+            <img src="https://via.placeholder.com/300" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Project 1</h5>
+              <p class="card-text">AWS Cloud Cost Optimization - Identifying Stale Resources.</p>
+              <a href="https://github.com/ATHITHYAN-V/Cost-Optimization-using-lambda" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card project-card">
+            <img src="https://via.placeholder.com/300" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">Project 2</h5>
+              <p class="card-text">S3 File Upload with SNS Notification.</p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="card project-card">
+            <img src="https://via.placeholder.com/300" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">Project 3</h5>
+              <p class="card-text"> AWS Cloud Cost Optimization & Performance Tracking.</p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
