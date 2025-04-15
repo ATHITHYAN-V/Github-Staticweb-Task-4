@@ -1,6 +1,6 @@
 ## 🍽️ Static Portfolio Website - GitHub Pages-Task-6
 
-This is a simple static website built as part of Task 4 for the DevOps Internship. The site is hosted using **GitHub Pages** and built using HTML and CSS. The theme of the website is food-related.
+This is a simple static website built as part of Task 6 for the DevOps Internship. The site is hosted using **GitHub Pages** and built using HTML and CSS. The theme of the website is Portfolio.
 
 ---
 
