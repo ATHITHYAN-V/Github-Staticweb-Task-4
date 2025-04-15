@@ -7,7 +7,7 @@ This is a simple static website built as part of Task 4 for the DevOps Internshi
 ## 🔗 Live Site
 
 Visit the website here:  
-👉 [https://athithyan-v.github.io/Github-Staticweb-Task-4/](https://athithyan-v.github.io/Github-Staticweb-Task-4/)
+👉 [https://athithyan-v.github.io/Github-Staticweb-Task-6/](https://athithyan-v.github.io/Github-Staticweb-Task-6/)
 
 ---
 
@@ -31,5 +31,6 @@ Visit the website here:
 
 ## 📷 Preview:
 
-![image](https://github.com/user-attachments/assets/8a2f3afd-1686-4ced-85a2-644a78cbcd35)
+![image](https://github.com/user-attachments/assets/bc1f3aa4-62ba-4047-9ee3-cc9f8a02802b)
+
 
