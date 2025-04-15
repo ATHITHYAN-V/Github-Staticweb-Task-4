@@ -11,6 +11,20 @@
             letter-spacing: 1px;
             line-break: 3px;
         }
+
+        .about {
+          
+            align-items: center;
+            background: linear-gradient(90deg, #4A90E2, #1E3A8A);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 24px;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            align-items: center;
+        } 
        
         .skills {
             
